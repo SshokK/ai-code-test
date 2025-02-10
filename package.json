@@ -1,0 +1,23 @@
+{
+  "name": "ai-code-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "amazon-v1": "npx tsx ./src/AmazonQ/tree.v1.ts",
+    "amazon-v2": "npx tsx ./src/AmazonQ/tree.v2.ts",
+    "claude": "npx tsx ./src/Claude/tree",
+    "copilot": "npx tsx ./src/Copilot/tree",
+    "gemini": "npx tsx ./src/Gemini/tree",
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "29.7.0",
+    "ts-jest": "29.2.5",
+    "@types/jest": "29.5.14",
+    "typescript": "5.7.3"
+  }
+}
